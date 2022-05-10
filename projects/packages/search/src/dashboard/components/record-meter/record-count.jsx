@@ -27,7 +27,6 @@ export function RecordCount( props ) {
 		typeof props.tierMaximumRecords === 'number'
 			? props.tierMaximumRecords?.toLocaleString()
 			: props.tierMaximumRecords;
-
 	let message;
 
 	if ( recordLimit ) {
