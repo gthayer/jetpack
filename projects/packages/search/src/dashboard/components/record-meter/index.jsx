@@ -56,7 +56,7 @@ export default function RecordMeter( {
 							recordCount={ recordInfo.recordCount }
 							tierMaximumRecords={ tierMaximumRecords }
 						/>
-						<RecordMeterBar items={ recordInfo.data } />
+						<RecordMeterBar items={ recordInfo.data } showLegendLabelBeforeCount={ true } />
 						<NoticeBox
 							recordCount={ recordInfo.recordCount }
 							tierMaximumRecords={ tierMaximumRecords }
